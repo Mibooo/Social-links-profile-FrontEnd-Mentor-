@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: rgba(0, 0, 0, 0.928);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  gap: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: hsl(0, 0%, 12%);
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+  height: 600px;
+  gap: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.bio {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.868);
+}
+
+.social-link {
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  padding: 12px;
+}
+
+.social-link:hover {
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+  color: black;
+}
+
+.info > img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+}
+
+h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}
